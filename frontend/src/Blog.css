@@ -1,0 +1,40 @@
+.blog-container {
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .blog-heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .coming-soon-message {
+    font-size: 18px;
+    color: #34495e;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .coming-soon-message p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .blog-heading {
+      font-size: 28px;
+    }
+  
+    .coming-soon-message {
+      font-size: 16px;
+      padding: 15px;
+    }
+  }
+  
